@@ -33,6 +33,7 @@ import rahulshettyacademy.pageobjects.ProductCatalogue;
 
 public class SubmitOrderTest extends BaseTest{
 	String productName = "ZARA COAT 3";
+//comments added for testing purpose
 	
 	@Test(dataProvider = "getData",groups = {"Purchase"})
 		public void SubmitOrder(HashMap<String, String> input)
